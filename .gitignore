@@ -4,4 +4,7 @@ lvenv
 __pycache__/
 local_settings.py
 db.sqlite
-media
+/media
+.vscode
+/static
+
