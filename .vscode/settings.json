@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "lvenv/bin/python"
+    "python.pythonPath": "lvenv/bin/python",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+   ]
 }
